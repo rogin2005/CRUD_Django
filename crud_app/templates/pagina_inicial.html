@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 40px;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilo para o card de aviso */
+        .warning-card {
+            background-color: #fff;
+            border: 2px solid #ffcc00;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .warning-card h3 {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .warning-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warning-card">
+        <h3>Aviso importante:</h3>
+        <p>Este é um sistema apenas para fins de estudo, portanto não insira nenhum dado pessoal ou existente. Opte por
+            criar dados fictícios!</p>
+    </div>
+    <h1>Bem-vindo ao CRUD Django!</h1>
+    <a href="/login">Login</a>
+</body>
+
+</html>
